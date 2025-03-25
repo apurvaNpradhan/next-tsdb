@@ -8,6 +8,13 @@
       "when": 1742827309793,
       "tag": "0000_brown_sage",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1742922790458,
+      "tag": "0001_new_machine_man",
+      "breakpoints": true
     }
   ]
 }
