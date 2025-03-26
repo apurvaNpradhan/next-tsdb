@@ -92,6 +92,7 @@ export const forgotPasswordAction = async (formData: FormData) => {
 };
 export const signInWithGithub = async () => {
   const supabase = await createClient();
+  const origin = (await headers()).get("origin");
   const { data } = await supabase.auth.signInWithOAuth({
     provider: "github",
     options:{
