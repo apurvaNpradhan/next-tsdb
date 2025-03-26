@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import type React from "react"
-import { ThemeProvider } from "./theme"
+import type React from "react";
+import { ThemeProvider } from "./theme";
 
 interface ProvidersProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 export default function Providers({ children }: ProvidersProps) {
@@ -17,5 +17,5 @@ export default function Providers({ children }: ProvidersProps) {
     >
       {children}
     </ThemeProvider>
-  )
+  );
 }

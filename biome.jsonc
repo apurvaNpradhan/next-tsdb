@@ -17,13 +17,13 @@
     "attributePosition": "auto",
     "ignore": ["node_modules", ".next", "dist", "public"]
   },
-  "organizeImports": { "enabled": true ,
+  "organizeImports": {
+    "enabled": true,
     "ignore": ["node_modules", ".next", "dist", "public"]
-},
+  },
   "linter": {
     "enabled": true,
     "rules": {
-      
       "nursery": {
         "useSortedClasses": {
           "level": "warn",
@@ -34,13 +34,14 @@
         }
       },
       "recommended": true,
-       "complexity": {
+      "complexity": {
         "noExtraBooleanCast": "error",
         "noMultipleSpacesInRegularExpressionLiterals": "error",
         "noUselessCatch": "error",
         "noWith": "error",
         "noForEach": "off"
-      }, "correctness": {
+      },
+      "correctness": {
         "noConstAssign": "error",
         "noConstantCondition": "error",
         "noEmptyCharacterClassInRegex": "error",
@@ -93,8 +94,8 @@
         "noUnsafeNegation": "error",
         "useGetterReturn": "error",
         "useValidTypeof": "error"
-      },
+      }
     },
-        "ignore": ["node_modules", ".next", "dist", "public"]
+    "ignore": ["node_modules", ".next", "dist", "public"]
   }
 }
