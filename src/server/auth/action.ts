@@ -94,10 +94,10 @@ export const signInWithGithub = async () => {
   const supabase = await createClient();
   const { data } = await supabase.auth.signInWithOAuth({
     provider: "github",
-    // options:{
+    options:{
 
-    //   redirectTo: `${origin}/auth/callback`,
-    // }
+      redirectTo: `${origin}/auth/callback`,
+    }
   });
 
   if (data.url) {
